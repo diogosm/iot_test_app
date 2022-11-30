@@ -1,3 +1,29 @@
+
+# Como Executar
+
+## Premissas
+
+Esse código assume que há um broker rodando em um determinado IP ou DNS e que ele roda numa máquina com conexão pouco intermitente. Não necessariamente precisa ser a mesma máquina do broker.
+
+## Authors
+
+- [@diogosm](https://www.github.com/diogosm)
+
+
+## Executando
+
+Rodando em background o código
+
+```bash
+  nohup python brokerListen2sendToFb.py &
+```
+
+Se precisar encerrar o código. Consulte ele funcionando com ```ps -aux```.
+
+```bash
+  kill $(pgrep -f 'brokerListen2sendToFb.py')
+```
+
 ## Estrutura da base
 
 Uma ideia seria seguir essa linha de estrutura
