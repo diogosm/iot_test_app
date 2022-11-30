@@ -5,6 +5,10 @@
 
 Esse código assume que há um broker rodando em um determinado IP ou DNS e que ele roda numa máquina com conexão pouco intermitente. Não necessariamente precisa ser a mesma máquina do broker.
 
+A arquitetura da solução:
+
+![image](https://user-images.githubusercontent.com/1641686/204712301-dedf45bd-ebff-4faa-b1a0-f5e1a55f0105.png)
+
 ## Authors
 
 - [@diogosm](https://www.github.com/diogosm)
